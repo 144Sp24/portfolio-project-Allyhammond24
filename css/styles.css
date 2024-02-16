@@ -15,16 +15,15 @@ body {
     background: #afe7ed;
 }
 img {
-    max-width: 100;
+    max-width: 100%;
     display: block; 
-    align-content: center;
 }
 
 /*Style rules for moblie veiwport*/
 
 /*Style rules for header*/
+
 header {
-    position:webkit-sticky;
     position: sticky;
     top: 0;
     height: 190px;
@@ -34,6 +33,7 @@ header {
 }
 
 /*Style rules for navigation area*/
+
 nav {
     padding: 1%;
     margin-bottom: 1%;
@@ -59,8 +59,8 @@ nav li a {
   text-decoration: none;
 }
 
-}
 /* show moblie class, hid tablet-desktop class*/
+
 .moblie {
     display: block;
 }
@@ -70,6 +70,7 @@ nav li a {
 }
 
 /*Styles rules for main content*/
+
 main {
     clear: left;
     background-color: #fff;
@@ -112,11 +113,11 @@ main p{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 150%;
 }
 
-}
 /*Style rules for footer content*/
+
 footer{
      text-align: center;
     font-size: 0.85em;
@@ -127,6 +128,7 @@ footer{
     padding-left: 0;
     padding-right: 0;
 }
+
 footer p {
     font-size: 1em;
     text-align: center;
