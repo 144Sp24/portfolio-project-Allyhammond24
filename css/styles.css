@@ -5,51 +5,68 @@ File Name: styles.css
 */
 
 /*CSS Reset*/
+body, header, nav, main, footer, h1, div, img, ul{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
 body {
     background: #afe7ed;
 }
 img {
-    max-width: 100%;
+    max-width: 100;
     display: block; 
-    text-align: center;
+    align-content: center;
 }
+
+/*Style rules for moblie veiwport*/
 
 /*Style rules for header*/
 header {
-    float: left;
-    width: 25%;
+    position:webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 190px;
     color: #fff;
+    text-align: center;
+    background-color: #afe7ed;
 }
 
 /*Style rules for navigation area*/
 nav {
-   float: right;
-    width: 70%;
+    padding: 1%;
+    margin-bottom: 1%;
+    
 }
 
-nav ul{
-    list-style-type: none;
-    margin: ;
-    text-align: right;
+nav ul {
+  list-style-type: none;
+  text-align: center;
 }
 
-nav li{
-    display:inline-block;
-    font-size: 1.75em;
-    font-family: Geneva, Arial, sans-serif;
-    font-weight: bold;
+nav li {
+  font-size: 1.5em;
+  font-family: "Lato", sans-serif;
+  border-top: 1px solid #fff;
+  
 }
 
 nav li a {
+  display: block;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+}
+/* show moblie class, hid tablet-desktop class*/
+.moblie {
     display: block;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: qem;
-    padding-right: 1em;
+}
+
+.tablet-desktop {
+    display: none;
 }
 
 /*Styles rules for main content*/
@@ -58,6 +75,7 @@ main {
     background-color: #fff;
     padding: 2%;
     font-size: 1.25em;
+    font-family: "Roboto Slab", serif;
 }
 main p{
     font-size: 1em;
@@ -68,8 +86,35 @@ main p{
     font-weight: bold;
     font-style: italic;
 }
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
 .map {
     border: 10px solid #000;
+}
+.round {
+    border-radius: 8px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 }
 /*Style rules for footer content*/
 footer{
