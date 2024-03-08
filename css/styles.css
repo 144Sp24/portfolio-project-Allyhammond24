@@ -28,7 +28,7 @@ header {
     position: sticky;
     top: 0;
     color: #fff;
-   width: 30%;
+    width: 30%;
     margin: auto;
     background-color: #afe7ed;
 }
@@ -156,7 +156,7 @@ footer p {
     }
   /* Tablet Viewport: Style rule for header*/
     header {
-        position: static;
+
         padding-bottom: 2%;
     }
 
@@ -186,6 +186,7 @@ footer p {
 print {
 
     header {
+        position: static;
         width: 25%;
         float: left;
         padding-bottom: 0;
@@ -209,6 +210,10 @@ print {
 
     main h1 {
         font-size: 1.8em;
+    }
+    
+    hearder {
+        position:static;
     }
     
    a:hover {
