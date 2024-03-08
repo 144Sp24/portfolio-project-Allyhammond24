@@ -14,9 +14,10 @@ body, header, nav, main, footer, h1, div, img, ul{
 body {
     background: #afe7ed;
 }
-img {
+
+ header img {
     max-width: 100%;
-    display: block; 
+    display: block;
 }
 
 /*Style rules for moblie veiwport*/
@@ -26,9 +27,9 @@ img {
 header {
     position: sticky;
     top: 0;
-    height: 190px;
     color: #fff;
-    text-align: center;
+   width: 30%;
+    margin: auto;
     background-color: #afe7ed;
 }
 
@@ -37,26 +38,26 @@ header {
 nav {
     padding: 1%;
     margin-bottom: 1%;
-    
+
 }
 
 nav ul {
-  list-style-type: none;
-  text-align: center;
+    list-style-type: none;
+    text-align: center;
 }
 
 nav li {
-  font-size: 1.5em;
-  font-family: "Lato", sans-serif;
-  border-top: 1px solid #fff;
-  
+    font-size: 1.5em;
+    font-family: "Lato", sans-serif;
+    border-top: 1px solid #fff;
+
 }
 
 nav li a {
-  display: block;
-  color: #fff;
-  padding: 0.5em 1em;
-  text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
 }
 
 /* show moblie class, hid tablet-desktop class*/
@@ -78,15 +79,18 @@ main {
     font-size: 1.25em;
     font-family: "Roboto Slab", serif;
 }
-main p{
+
+main p {
     font-size: 1em;
 }
+
 .link {
     color: #000;
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
 }
+
 .tel-link {
     background-color: #404040;
     padding: 2%;
@@ -102,24 +106,27 @@ main p{
     font-size: 1.5em;
     display: block;
 }
+
 .map {
     border: 10px solid #000;
+    width: 95%;
 }
+
 .round {
     border-radius: 8px;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 150%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /*Style rules for footer content*/
 
-footer{
-     text-align: center;
+footer {
+    text-align: center;
     font-size: 0.85em;
     background-color: #5faab3;
     color: #fff;
@@ -135,4 +142,3 @@ footer p {
     color: #fff;
     padding: 0 1em;
 }
-
