@@ -142,3 +142,76 @@ footer p {
     color: #fff;
     padding: 0 1em;
 }
+
+/*Media Query for Tablet Viewprot*/
+@media screen and (min-width:630px),{
+   
+/*Tablet Viewport: Show tablet-desktop class, hid moblie class*/
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+  /* Tablet Viewport: Style rule for header*/
+    header {
+        position: static;
+        padding-bottom: 2%;
+    }
+
+    /*Tablet Viewport: Style rules foor nav area*/
+    nav li {
+        border-top: none;
+        display: inline-block;
+        border-right: 1px solid #fff;
+    }
+    
+
+    nav li a {
+        padding: 0.1em 0.75em;
+    }
+
+   
+
+    /* Tablet Viewprot: Style rules for main content area*/
+    main ul {
+        margin: 0 0 4% 10%;
+    }
+
+
+}
+/* Media Query for Desktop Viewport*/
+@media screen and (min-width: 1015px),
+print {
+
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+        }
+
+      /*Desktop Viewport: Style rules for nav area*/
+        nav {
+            float: right;
+            width: 70%;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+
+    /* Desktop Viewport: Style rules for main content*/
+    main {
+        clear: left;
+    }
+
+    main h1 {
+        font-size: 1.8em;
+    }
+    
+   a:hover {
+  color:#34a8eb;
+
+}
